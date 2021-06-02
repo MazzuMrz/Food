@@ -10,7 +10,7 @@ const navbar = () => {
   <Navbar.Brand className="p-2 h3 " href="#home">Tu cocina!</Navbar.Brand>
   
   <Navbar.Toggle />
-  <Navbar.Collapse className="justify-content-center">
+  <Navbar.Collapse className="justify-content-end">
     <Navbar.Text>
       By: <a href="https://maruzzamn.000webhostapp.com/" target="_blank">Matias Maruzza</a>
     </Navbar.Text>
