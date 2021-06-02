@@ -10,7 +10,7 @@ class ProductList extends Component{
          
             {ProductData.map((productDetail, index) =>{
                 return <div className=" mb-4 m-auto">
-                <Card style={{ width: '25rem' }} className="">
+                <Card style={{ width: '20rem' }} className="">
                     <Card.Img variant="top" 
                         src={productDetail.image} />
     

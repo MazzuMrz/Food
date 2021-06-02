@@ -6,11 +6,11 @@ import { Navbar } from "react-bootstrap";
 const navbar = () => {
     return (
         <div>
-           <Navbar className="bg-danger nav">
+           <Navbar className="bg-danger nav ">
   <Navbar.Brand className="p-2 h3 " href="#home">Tu cocina!</Navbar.Brand>
   
   <Navbar.Toggle />
-  <Navbar.Collapse className="justify-content-end">
+  <Navbar.Collapse className="justify-content-center">
     <Navbar.Text>
       By: <a href="https://maruzzamn.000webhostapp.com/" target="_blank">Matias Maruzza</a>
     </Navbar.Text>
