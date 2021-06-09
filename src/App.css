@@ -1,64 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.nav{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  font-size: 25px;
 
+  line-height: 1em; 
+  background-color: #F2C029;
 
-h2{
-    color: whitesmoke;
-    text-shadow: 0px 3px 5px black;
-    font-weight: bolder;
-    
+}
+.brandtext{
+  color: #176dde;
+}
+.image{
+
+max-height: 15rem;
 }
 
-.indexdesc{
-    color: rgb(0, 0, 0);
-    text-shadow: 0px 3px 5px rgb(245, 245, 245);
-    font-size: 23px;
-    font-weight: bold;
+
+a{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+.conh1{
+  justify-content: center;
+  height: fit-content;
+  width: auto;
+  background-color: #F2C029;
+  border-radius: 10px;
 }
 
-
-.titulo{
-    font-size: x-large;
-}
-.cocina{
-    font-size: x-large;
-}
-.cont{
-    text-align: center;
-    text-shadow: 1px 3px 10px rgb(116, 116, 116);
-    color: rgb(7, 0, 0);
+.conh3{
+  background-color: #260C07;
+  border-radius: 10px;
 }
 
-.about{
-    font-size: 20px;
+h1 {
+  color: #260C07;
+  text-shadow: 0px 3px 5px #F2C029;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  
+  
+  
 }
-.sobre{
-    padding: 10px;
-    border-radius: 10px;
+h3{
+  color: #F2C029;
+  text-shadow: 2px 4px 10px #260C07;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  
 }
 
-.filter {
-    position: relative;
-    display: inline-block;
-   }
-   
-   .filter__button {
-    border-radius: 0.125rem;
-    padding: 0.5rem 1rem;
-    background-color: #2b7de9;
-    background-image: none;
-    cursor: pointer;
-    border: transparent;
-    font-weight: 600;
-    color: white;
-    font-size: 16px;
-    line-height: 1.5;
-   }
-   
-   .filter__button:hover {
-    background-color: #176dde;
-   }
-   .filter__button:focus {
-    outline: 1px dotted;
-    outline: 1px auto -webkit-focus-ring-color;
-   }
-       
-   
+.indexdesc {
+  color: #F2C029;
+  text-shadow: 0px 3px 2px #260C07;
+  font-size: 30px;
+  font-weight: italic;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.titulo {
+  font-size: x-large;
+}
+.cocina {
+  font-size: x-large;
+}
+.cont {
+  text-align: center;
+  text-shadow: 1px 3px 10px rgb(116, 116, 116);
+  color: rgb(7, 0, 0);
+}
+
+.about {
+  font-size: 20px;
+}
+.sobre {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #F2C029 ;
+  border-right: medium;
+  border-color: #260C07;
+  border-width: medium;
+}
+.title{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bolder;
+}

@@ -1,50 +1,69 @@
-import React from 'react'
+import React from "react";
 import { Carousel } from "react-bootstrap";
 
 const ingreso = () => {
-    return (
-        <div>
-        <Carousel className="">
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={"https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2012/01/comida-rapida-casera.jpg"}
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h2>A tu gusto!</h2>
-      <p className="indexdesc">Busca que vas a comer hoy.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100 "
-      src={'https://www.cocinayvino.com/wp-content/uploads/2017/01/comidarapida.jpg'}
-      alt="Second slide"
-    />
+  return (
+    <div>
+      <Carousel className="">
+        <Carousel.Item>
+          <img
+            className="w-100"
+            src={
+              "https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2012/01/comida-rapida-casera.jpg" 
+            }
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <div className="conh1">
+            <h1>A tu gusto!</h1>
+            </div>
+            <div className="conh3">
+            <h3 className="">Busca que vas a comer hoy.</h3>
+            </div>
+            
+            
+            
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="w-100"
+            src={
+              "https://barradeideas.com/wp-content/uploads/2019/09/fast-food.jpg"
+            }
+            alt="Second slide"
+          />
 
-    <Carousel.Caption>
-      <h2>Personaliza tu pedido</h2>
-      <p className="indexdesc">Segun tu paladar.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={"https://cdn.aarp.net/content/dam/aarp/health/healthy-living/2019/01/1140-fried-foods-esp.web.jpg"}
-      alt="Third slide"
-    />
+          <Carousel.Caption>
+          <div className="conh1">
+            <h1>Personaliza tu pedido</h1>
+            </div>
+            <div className="conh3">
+            <h3 className="">Segun tu paladar.</h3>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="w-100"
+            src={
+              "https://i.pinimg.com/originals/43/4c/82/434c8246343438ba20a118c2d868c154.jpg"
+            }
+            alt="Third slide"
+          />
 
-    <Carousel.Caption>
-      <h2>Experimentá!</h2>
-      <p className="indexdesc">Cosas nuevas todos los dias ;) </p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
-        </div>
-    
-      
-    )
+          <Carousel.Caption>
+          <div className="conh1">
+            <h1>Experimentá!</h1>
+            </div>
+            <div className="conh3">
+            <h3 className="">Cosas nuevas todos los dias ;) </h3>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  );
 };
 
 export default ingreso;
