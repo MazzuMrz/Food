@@ -8,6 +8,22 @@
   background-color: #F2C029;
 
 }
+
+.card_titles{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  
+}
+
+.titles_shop{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  font-size: 4rem;
+  text-shadow: 5px 0px 2px #F2C029;
+  letter-spacing: 0.5rem;
+  
+}
+
 .brandtext{
   color: #176dde;
 }

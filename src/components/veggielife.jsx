@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import ProductData from "./datafiles.json";
+import ProductData from "./dataveggie.json";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
-class ProductList extends Component {
+class Productveggie extends Component {
   render() {
     return (
       <div className="row ">
@@ -25,7 +25,7 @@ class ProductList extends Component {
                   </Card.Text>
                 
                   <h4>{productDetail.price}</h4>
-                  <Button className="bg-dark text-white">Comprar</Button>
+                  <Button className="bg-dark text-white " >Comprar</Button>
                 </Card.Body>
               </Card>
             </div>
@@ -36,4 +36,4 @@ class ProductList extends Component {
   }
 }
 
-export default ProductList;
+export default Productveggie;
