@@ -6,7 +6,7 @@ import { Button } from "react-bootstrap";
 class Productveggie extends Component {
   render() {
     return (
-      <div className="row ">
+      <div className="products row ">
         {ProductData.map((productDetail, index) => {
           return (
             <div className=" m-auto ">

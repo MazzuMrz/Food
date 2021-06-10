@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .nav{
   font-family: 'Bebas Neue', cursive;
   font-weight: bold;
@@ -6,7 +7,18 @@
 
   line-height: 1em; 
   background-color: #F2C029;
+ 
 
+}
+.logo{
+  height: 5rem;
+  
+}
+
+.products{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:inherit;
+  
 }
 
 .card_titles{
@@ -51,6 +63,8 @@ a{
 .conh3{
   background-color: #260C07;
   border-radius: 10px;
+  padding: 10px;
+  
 }
 
 h1 {
@@ -62,11 +76,15 @@ h1 {
   
   
 }
+.text{
+  font-family: 'Montserrat', sans-serif;
+}
 h3{
   color: #F2C029;
   text-shadow: 2px 4px 10px #260C07;
   font-weight: bold;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Montserrat', sans-serif;
+  
   
 }
 

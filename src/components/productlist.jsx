@@ -6,10 +6,10 @@ import { Button } from "react-bootstrap";
 class ProductList extends Component {
   render() {
     return (
-      <div className="row ">
+      <div className=" products row">
         {ProductData.map((productDetail, index) => {
           return (
-            <div className=" m-auto ">
+            <div className=" m-auto products  ">
               <Card
                 style={{ width: "20rem", height: "34rem" }}
                 className="mb-2 "
@@ -18,9 +18,9 @@ class ProductList extends Component {
 
                 <Card.Body className="">
                   <Card.Title>
-                    <h1>{productDetail.name}</h1>
+                    <h2>{productDetail.name}</h2>
                   </Card.Title>
-                  <Card.Text className="texto text-dark">
+                  <Card.Text className="">
                     {productDetail.description}
                   </Card.Text>
                 

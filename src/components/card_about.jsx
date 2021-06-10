@@ -6,6 +6,7 @@ import {
   AiOutlineFieldTime,
 } from "react-icons/all";
 import { IconContext } from "react-icons";
+import logo from '../imgs/LOGOFULL.png'
 
 const card_about = () => {
   return (
@@ -59,6 +60,9 @@ const card_about = () => {
           </Card.Body>
         </Card>
       </CardGroup>
+      <h1 className="pt-3">Buen provecho te desea:</h1>
+      <img src={logo} className="w-25 " />
+      
     </div>
   );
 };

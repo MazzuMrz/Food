@@ -18,7 +18,7 @@ const ingreso = () => {
             <h1>A tu gusto!</h1>
             </div>
             <div className="conh3">
-            <h3 className="">Busca que vas a comer hoy.</h3>
+            <h3 className="">Busca que vas a comer hoy</h3>
             </div>
             
             
@@ -39,7 +39,7 @@ const ingreso = () => {
             <h1>Personaliza tu pedido</h1>
             </div>
             <div className="conh3">
-            <h3 className="">Segun tu paladar.</h3>
+            <h3 className="">Segun tu paladar</h3>
             </div>
           </Carousel.Caption>
         </Carousel.Item>

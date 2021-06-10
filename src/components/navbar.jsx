@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar,Nav, NavDropdown } from "react-bootstrap";
+import logo from '../imgs/LOGOFULL.png'
 
 
 const navbar = () => {
@@ -9,7 +10,7 @@ const navbar = () => {
   
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar">
-    <Nav className="mr-auto m-3 ">
+    <Nav className="">
       <Nav.Link href="#index">Inicio</Nav.Link>
       <NavDropdown title="Categorias" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#picantes">Burguers picantes</NavDropdown.Item>
@@ -19,8 +20,9 @@ const navbar = () => {
       </NavDropdown>
       <Nav.Link href="#about"> Sobre nosotros</Nav.Link>
     </Nav>
-    <Nav className=" text-center">
-      <a>Bienvenido a Burguer factory</a>
+    <Nav className="ml-auto pr-4 bd-highlight">
+      
+      <img src={logo} className="logo " />
       
     </Nav>
   </Navbar.Collapse>
