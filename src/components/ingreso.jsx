@@ -9,20 +9,20 @@ const ingreso = () => {
           <img
             className="w-100"
             src={
-              "https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2012/01/comida-rapida-casera.jpg" 
+              "https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2012/01/comida-rapida-casera.jpg"
             }
             alt="First slide"
           />
           <Carousel.Caption>
-            <div className="conh1">
-            <h1>A tu gusto!</h1>
+            <div className="conh1 ">
+              <h1>A tu placer!</h1>
             </div>
-            <div className="conh3">
-            <h3 className="">Busca que vas a comer hoy</h3>
+            <div
+              className="conh3 d-none d-sm-block d-xs-none d-md-block d-lg-block "
+                            
+            >
+              <h3 className="">Busca que vas a comer hoy</h3>
             </div>
-            
-            
-            
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -35,11 +35,14 @@ const ingreso = () => {
           />
 
           <Carousel.Caption>
-          <div className="conh1">
-            <h1>Personaliza tu pedido</h1>
+            <div className="conh1 ">
+              <h1>Sin culpa ;)</h1>
             </div>
-            <div className="conh3">
-            <h3 className="">Segun tu paladar</h3>
+            <div
+              className="conh3 d-none d-sm-block d-xs-none d-md-block d-lg-block "
+
+            >
+              <h3 className="">Segun tu paladar</h3>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -53,11 +56,14 @@ const ingreso = () => {
           />
 
           <Carousel.Caption>
-          <div className="conh1">
-            <h1>Experimentá!</h1>
+            <div className="conh1 ">
+              <h1>Experimentá!</h1>
             </div>
-            <div className="conh3">
-            <h3 className="">Cosas nuevas todos los dias ;) </h3>
+            <div
+              className="conh3 d-none d-sm-block d-md-block d-lg-block "
+
+            >
+              <h3 className="">Cosas nuevas todos los dias ;) </h3>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
