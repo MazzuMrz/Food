@@ -11,7 +11,7 @@ import logo from '../imgs/LOGOFULL.png'
 const card_about = () => {
   return (
     <div>
-      <CardGroup >
+      <CardGroup id="sobreNosotros" >
         <Card>
           <Card.Body>
             <Card.Title>

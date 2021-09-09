@@ -1,15 +1,23 @@
-import React, { Component } from "react";
-import ProductData from "./dataveggie.json";
+import {useState, useEffect} from "react";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
-class Productveggie extends Component {
-  render() {
+const Productveggie = () => {
+  const [data, setData] = useState([])
+
+  const fetchAPI = () => {
+    fetch('http://localhost:3000/dataVeggie')
+    .then(response => response.json())
+    .then(data => setData(data));
+  }
+    useEffect(() => {
+      fetchAPI()
+    }, [])
     return (
-      <div className="products row ">
-        {ProductData.map((productDetail, index) => {
+      <div className="d-flex row container  ">
+        {data.map((productDetail, index) => {
           return (
-            <div className=" m-auto ">
+            <div className="mx-auto ">
               <Card
                 style={{ width: "20rem", height: "34rem" }}
                 className="mb-2 "
@@ -25,7 +33,7 @@ class Productveggie extends Component {
                   </Card.Text>
                 
                   <h4>{productDetail.price}</h4>
-                  <Button className="bg-dark text-white " >Comprar</Button>
+                  <Button className="bg-success text-white font-weight-bolder " >Comprar</Button>
                 </Card.Body>
               </Card>
             </div>
@@ -34,6 +42,6 @@ class Productveggie extends Component {
       </div>
     );
   }
-}
+
 
 export default Productveggie;

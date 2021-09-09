@@ -1,13 +1,25 @@
-import React, { Component } from "react";
+import {useState, useEffect} from "react";
 import ProductData from "./datafiles.json";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
-class ProductList extends Component {
-  render() {
-    return (
-      <div className=" products row">
-        {ProductData.map((productDetail, index) => {
+
+const Productlist = () => {
+
+  const [data, setData] = useState([])
+
+  const fetchAPI = () => {
+    fetch('http://localhost:3000/dataBurguer')
+    .then(response => response.json())
+    .then(data => setData(data));
+  }
+    useEffect(() => {
+      fetchAPI()
+    }, [])
+  return (
+    <div>
+       <div className=" products row">
+        {data.map((productDetail, index) => {
           return (
             <div className=" m-auto products  ">
               <Card
@@ -32,8 +44,13 @@ class ProductList extends Component {
           );
         })}
       </div>
-    );
-  }
+    </div>
+  )
 }
 
-export default ProductList;
+export default Productlist
+
+    
+     
+
+

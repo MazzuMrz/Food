@@ -18,7 +18,7 @@ const navbar = () => {
         <NavDropdown.Item href="#veggie">#VeggieLife</NavDropdown.Item>
         <NavDropdown.Item href="#celiacos">Para celiacos</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="#about"> Sobre nosotros</Nav.Link>
+      <Nav.Link href="#sobreNosotros"> Sobre nosotros</Nav.Link>
     </Nav>
     <Nav className="ml-auto pr-4 bd-highlight">
       
